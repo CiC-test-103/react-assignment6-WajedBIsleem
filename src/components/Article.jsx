@@ -6,13 +6,15 @@ import styles from './Article.module.css';
 
 const Article = () => {
   return (
-    <article className={styles['container']}>
-      <Picture />
-      <section className={styles['article-content']}>
-        <Title />
-        <Details />
-        <Footer />
-      </section>
+    <article className={styles['article']}>
+      <div className={styles['container']}>
+        <Picture />
+        <section className={styles['article-content']}>
+          <Title />
+          <Details />
+          <Footer />
+        </section>
+      </div>
     </article>
   );
 };
