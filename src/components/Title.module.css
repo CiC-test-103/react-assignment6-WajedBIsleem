@@ -1,0 +1,13 @@
+/* Variable Imports */
+@import '../variables.css';
+
+.article-title {
+  font-size: 1.25rem;
+  text-wrap: auto;
+}
+
+@media (max-width: 480px) {
+  .article-title {
+    margin: 0 2rem;
+  }
+}
